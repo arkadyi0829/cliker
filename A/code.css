@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.game {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 320px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.score {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.score span {
+    font-weight: bold;
+    color: #667eea;
+}
+
+#clickBtn {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.2s;
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.5);
+    user-select: none;
+}
+
+#clickBtn:hover {
+    box-shadow: 0 5px 30px rgba(102, 126, 234, 0.8);
+}
+
+#clickBtn:active {
+    transform: scale(0.95);
+}
+
+.info {
+    margin: 20px 0 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+#resetBtn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    color: #555;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+#resetBtn:hover {
+    background: #ddd;
+}
